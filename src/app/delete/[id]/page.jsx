@@ -33,8 +33,6 @@ const deletePage = async ({ params }) => {
 
   return (
     <div>
-      <h1>Delete Page</h1>
-
       <form action={deleteAction} className={Styles.container}>
         <input type="hidden" value={params.id} id="id" name="id" required />
 
