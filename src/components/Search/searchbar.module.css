@@ -1,0 +1,32 @@
+.searchbar {
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    border-radius: 4px 0 0 4px;
+    width: 280px;
+    outline: none;
+  }
+  
+  .searchbtn {
+    padding: 7px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchbtn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @media screen and (max-width: 600px){
+
+    .searchbar {
+      width: 145px;
+    }
+    
+  }

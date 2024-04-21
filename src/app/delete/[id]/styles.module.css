@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container p {
+  margin-bottom: 20px;
+}
+
+.container button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100px;
+  border-radius: 5px;
+}
